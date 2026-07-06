@@ -1,4 +1,4 @@
-# 🏨 Hotel Explorer
+#  🏨 UrbanStay
 
 A modern and responsive hotel browsing application built with **React** and **Vite**. This project integrates with a live Hotel API to display hotel listings and allows users to search, filter, and view detailed information about each hotel.
 
