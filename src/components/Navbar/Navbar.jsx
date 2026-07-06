@@ -3,7 +3,7 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="logo">🏨 Hotel Explorer</div>
+      <div className="logo">🏨 UrbanStay</div>
 
       <ul className="nav-links">
         <li><a href="/">Home</a></li>

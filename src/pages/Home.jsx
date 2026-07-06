@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Navbar from "../components/Navbar/Navbar";
 import Hero from "../components/Hero/Hero";
 import HotelCard from "../components/HotelCard/HotelCard";
+import Footer from "../components/Footer/Footer";
 import SearchBar from "../components/SearchBar/SearchBar";
 import { getHotels } from "../services/api";
 import "./Home.css";
@@ -63,6 +64,7 @@ function Home() {
           ))
         )}
       </section>
+       <Footer />
     </>
   );
 }
