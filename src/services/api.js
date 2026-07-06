@@ -8,7 +8,17 @@ export async function getHotels() {
   }
 
   const result = await response.json();
+  return result.data;
+}
 
-  // The hotels are inside result.data
+export async function getHotelById(id) {
+  const response = await fetch(`${BASE_URL}${id}`);
+
+  if (!response.ok) {
+    throw new Error("Failed to fetch hotel");
+  }
+
+  const result = await response.json();
+
   return result.data;
 }
